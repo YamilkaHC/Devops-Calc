@@ -1,0 +1,3 @@
+fastApi
+uvicorn
+coverage
