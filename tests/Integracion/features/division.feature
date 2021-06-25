@@ -11,4 +11,4 @@ Feature: Dividir dos numeros
     | 12         | 3     | 4      |
     | 1000       | 100   | 10     |
     | 10         | 2     | 5      |
-    | 15         | 5     | 3      |
+    | 15         | 0     | "Invalid"      |

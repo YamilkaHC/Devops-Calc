@@ -1,6 +1,8 @@
-from behave import * 
+from behave import *
+from behave import given, when, then, step
 import api
 from fastapi.testclient import TestClient
+
 
 @given ("que deseo Sumar dos numeros")
 def step (context):
@@ -12,4 +14,4 @@ def step_implementation(context, num1, num2):
 
 @then ("El resultado {result} debe ser la suma de ambos")
 def step_implementation(context, result):
-    assert str(result) == str(contex.api_response.json().get('total'))
+    assert str(result) == str(context.api_response.json().get('total'))

@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-from Calc import Calc
+from calc import Calc
 
 app = FastAPI()
+calc = Calc()
 
 
 @app.get("/")
