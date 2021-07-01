@@ -13,4 +13,4 @@ class Calc:
     def dividir (self, num1,  num2): 
         if num1 < num2 or num2 == 0:  
             return "Invalid"
-        return num1/num2
+        return round(num1/num2)

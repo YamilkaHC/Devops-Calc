@@ -1,3 +1,5 @@
-fastApi
+fastapi
 uvicorn
+behave
+requests
 coverage

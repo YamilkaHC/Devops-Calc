@@ -31,7 +31,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(4,self.calc.dividir(12,3))
         self.assertEqual(10,self.calc.dividir(1000,100))
         self.assertEqual(5,self.calc.dividir(10,2))
-        self.assertEqual("Invalid",self.calc.dividir(15,0))
+        self.assertEqual('Invalid',self.calc.dividir(15,0))
 
 if __name__ == '__main__':
     unittest.main()

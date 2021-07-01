@@ -2,7 +2,7 @@ Feature: Restar dos numeros
 
     Scenario Outline: Restar
     Given que deseo Restar dos numeros
-    When yo ingrese los numeros <num1> y <num2>
+    When yo ingrese <num1> y <num2> para restar
     Then El resultado <result> debe ser la resta de ambos
 
     Examples: Resta de Numeros
