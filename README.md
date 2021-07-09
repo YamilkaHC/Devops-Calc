@@ -30,10 +30,12 @@ behave tests/Integracion
 ```
 uvicorn --host 0.0.0.0 --port 8000 api:app
 ```
+  
 
 
 
-## Urls de los repositorios de los ejercicios que hemos realizado hasta ahora
+
+# Urls de los repositorios de los ejercicios que hemos realizado hasta ahora
 
 ### Practica: hello word
 https://github.com/YamilkaHC/HelloWordPractice
@@ -41,8 +43,8 @@ https://github.com/YamilkaHC/HelloWordPractice
 ### Practica: Docker ejercicio #6
 https://github.com/YamilkaHC/HelloWordPractice/tree/PracticeDocker-Exercise%236
 
-## Practica: Docker ejercicio #7
+### Practica: Docker ejercicio #7
 https://github.com/YamilkaHC/HelloWordPractice/tree/PracticeDocker-Exercise%237
 
-## Practica: DockerWordpress
+### Practica: DockerWordpress
 https://github.com/YamilkaHC/HelloWordPractice/tree/PracticeDocker-Wordpress

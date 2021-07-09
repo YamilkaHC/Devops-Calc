@@ -16,7 +16,7 @@ def read_sumar(num1: int = 0, num2:int = 0):
     }
 
 @app.get("/restar")
-def read_sumar(num1: int = 0, num2:int = 0):
+def read_restar(num1: int = 0, num2:int = 0):
     return {
         "total": calc.restar(num1, num2) 
     }
