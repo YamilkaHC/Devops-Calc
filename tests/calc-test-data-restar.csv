@@ -1,0 +1,6 @@
+operation;num1;num2;result
+restar;2;2;0
+restar;1;12;-11
+restar;1000;100;900
+restar;0;0;0
+restar;10;1;9

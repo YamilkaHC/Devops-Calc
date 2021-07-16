@@ -1,0 +1,6 @@
+operation;num1;num2;result
+multiplicar;2;2;4
+multiplicar;1;12;12
+multiplicar;1;1000;1000
+multiplicar;0;1;0
+multiplicar;10;5;50
