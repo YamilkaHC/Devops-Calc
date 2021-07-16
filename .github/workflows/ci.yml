@@ -74,11 +74,11 @@ jobs:
           uses: mtsmachado8/heroku-deploy@v2.0.3
           with:
             # Email Linked to your Heroku Account
-            email: ${{secrets.HEROKU_EMAIL}}
+            email: yamilka_268465460@hotmail.com
             # Your Heroku API Key
-            api_key: ${{secrets.HEROKU_API_TOKEN}}
+            api_key: e76a95bc-5a2a-4528-917e-6b1845f781a9
             # Your Heroku App Name
-            app_name: ${{secrets.APP_NAME}}
+            app_name: agile-shore-03085
   
   testApiDev:
   
