@@ -164,7 +164,7 @@ jobs:
       
       environment: production
       
-      needs: deployStaging
+      needs: UAT
 
 
       steps:
