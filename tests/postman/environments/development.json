@@ -1,0 +1,14 @@
+{
+	"id": "aff804f4-7064-4ba6-8c76-7507068f14eb",
+	"name": "development",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "http://agile-shore-03085.herokuapp.com",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "environment",
+	"_postman_exported_at": "2021-07-14T19:40:12.688Z",
+	"_postman_exported_using": "Postman/8.8.0-210630-1400"
+}

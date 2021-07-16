@@ -2,8 +2,8 @@ Feature: Dividir dos numeros
 
     Scenario Outline: Dividir
     Given que deseo Dividir dos numeros
-    When yo ingrese los numeros <dividendo> y <divisor>
-    Then El resultado <result> debe ser la resta de ambos
+    When yo ingrese <dividendo> y <divisor> para dividir
+    Then El resultado <result> debe ser la division de ambos
 
     Examples: Division de Numeros
     | dividendo  | divisor  | result |
@@ -11,4 +11,4 @@ Feature: Dividir dos numeros
     | 12         | 3     | 4      |
     | 1000       | 100   | 10     |
     | 10         | 2     | 5      |
-    | 15         | 5     | 3      |
+    | 15         | 0     | Invalid  |
