@@ -158,3 +158,27 @@ jobs:
             #........
             iterationData: tests\calc-test-data.csv
 
+  DeployToProd:
+  
+      runs-on: ubuntu-latest
+      
+      environment: production
+      
+      needs: deployStaging
+
+
+      steps:
+        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        - uses: actions/checkout@v2
+        
+        
+        - name: Deploy to Heroku
+          uses: matt-ball/newman-action@v0.2.4
+        
+          with:
+            # Email Linked to your Heroku Account
+            email: ${{secrets.HEROKU_EMAIL}}
+            # Your Heroku API Key
+            api_key: ${{secrets.HEROKU_API_TOKEN}}
+            # Your Heroku App Name
+            app_name: ${{secrets.APP_NAME}}
