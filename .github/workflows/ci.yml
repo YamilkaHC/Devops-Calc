@@ -56,3 +56,9 @@ jobs:
           # The target architecture (x86, x64) of the Python interpreter.
           architecture: x64
       - run: behave tests/Integracion
+
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}  # Needed to get PR information, if any
+          SONAR_TOKEN: ${{secrets.SONAR_TOKEN}}      
