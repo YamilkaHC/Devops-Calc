@@ -174,7 +174,7 @@ jobs:
         
         
         - name: Deploy to Heroku
-          uses: matt-ball/newman-action@v0.2.4
+          uses: actions/checkout@v2.0.3
         
           with:
             # Email Linked to your Heroku Account
