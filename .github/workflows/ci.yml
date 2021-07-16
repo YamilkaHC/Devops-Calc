@@ -130,3 +130,31 @@ jobs:
             api_key: ${{secrets.HEROKU_API_TOKEN}}
             # Your Heroku App Name
             app_name: ${{secrets.APP_NAME}}
+
+  UAT:
+  
+      runs-on: ubuntu-latest
+      
+      environment: Staging
+      
+      needs: deployStaging
+      steps:
+        # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+        - uses: actions/checkout@v2
+        
+        
+        - name: TestDev
+        # You may pin to the exact commit or the version.
+        # uses: matt-ball/newman-action@0659e9b8d056c0d03d94e1dbfce380512088b566
+          uses: matt-ball/newman-action@v0.2.4
+        
+          with:
+            # Postman API key
+            apiKey: ${{secrets.POSTMAN_API}}
+            # Collection to use
+            collection: tests\postman\postmancollection.json
+            # Environment to use
+            environment: tests\postman\environments\staging.json
+            #........
+            iterationData: tests\calc-test-data.csv
+

@@ -1,0 +1,14 @@
+{
+	"id": "aff804f4-7064-4ba6-8c76-7507068f14eb",
+	"name": "staging",
+	"values": [
+		{
+			"key": "baseUrl",
+			"value": "https://yamilkaintec-calc-staging.herokuapp.com/",
+			"enabled": true
+		}
+	],
+	"_postman_variable_scope": "staging",
+	"_postman_exported_at": "2021-07-14T19:40:12.688Z",
+	"_postman_exported_using": "Postman/8.8.0-210630-1400"
+}
