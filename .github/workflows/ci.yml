@@ -158,12 +158,13 @@ jobs:
             #........
             iterationData: tests\calc-test-data.csv
 
-  DeployToProd:
+
+  deployToProd:
   
       runs-on: ubuntu-latest
       
       environment: production
-      
+
       needs: UAT
 
 
