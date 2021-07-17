@@ -8,9 +8,15 @@ La aplicacion consiste en una calculadora que realiza las operaciones de suma, r
     * Multiplicacion de 2 numeros
     * Division de 2 numeros
 
-# Requirements 
+## Requirements 
 - Docker
 - Python3
+
+## Branchs
+
+la estrategia de ramas consiste en una rama _main_ que a la cual no se le puede hacer push directamente y otra llamada _feature/devops/start-ci-1_ en donde se crea todo el codigo antes de llegar a main. 
+
+
 
 # Tests
 
